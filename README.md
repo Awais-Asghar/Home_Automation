@@ -34,7 +34,8 @@ This project uses an Arduino to control a fan and a relay based on temperature r
 
 ### Sensors and Actuators
 
-- `ONE_WIRE_BUS` (Pin 12): Pin connected to the OneWire bus for the DS18B20 temperature sensor.
+- `ONE_WIRE_BUS` (Pin 12): Pin connected to the OneWire bus for the DS18B20 temperature sensor. Ensure that you have connected the pull up resistor with the output pin of the temperature sensor. You can take explore more info from this link.
+  https://lastminuteengineers.com/ds18b20-arduino-tutorial/
 - `RelayPin` (Pin 4): Pin connected to the relay module.
 - `FanPin` (Pin 3): Pin connected to the fan for PWM control.
 
